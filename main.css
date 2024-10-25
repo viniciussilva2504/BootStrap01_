@@ -1,0 +1,40 @@
+.post img {
+    width: 100%;
+    height: auto;
+}
+
+.btn-leia-mais {
+    display: block;
+    width: 100%; 
+    text-align: center; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.advertiser-img {
+    height: auto; 
+    margin-bottom: 10px; 
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .post {
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .post {
+        margin-bottom: 12px; 
+    }
+
+    .btn-leia-mais {
+        font-size: 14px;
+    }
+}
