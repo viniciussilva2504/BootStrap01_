@@ -1,40 +1,36 @@
 .post img {
-    width: 100%;
-    height: auto;
+    width: 100%; /* A imagem ocupa toda a largura da coluna */
+    height: auto; /* Mantém a proporção da imagem */
 }
 
 .btn-leia-mais {
     display: block;
-    width: 100%; 
-    text-align: center; 
+    width: 100%; /* Faz o botão ocupar toda a largura da imagem */
+    text-align: center; /* Centraliza o texto no botão */
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Espaçamento acima do botão */
 }
 
-
+/* Estilo para as imagens dos anunciantes */
 .advertiser-img {
-    height: auto; 
-    margin-bottom: 10px; 
-    display: flex;
+    width: 100%; /* Ocupa toda a largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 10px; /* Espaçamento entre as imagens */
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-}
-
+/* Estilos responsivos */
 @media (max-width: 768px) {
     .post {
-        margin-bottom: 16px;
+        margin-bottom: 16px; /* Menor margem para telas menores */
     }
 }
 
 @media (max-width: 576px) {
     .post {
-        margin-bottom: 12px; 
+        margin-bottom: 12px; /* Ajusta ainda mais a margem em dispositivos pequenos */
     }
 
     .btn-leia-mais {
-        font-size: 14px;
+        font-size: 14px; /* Ajusta o tamanho da fonte para telas pequenas */
     }
 }
